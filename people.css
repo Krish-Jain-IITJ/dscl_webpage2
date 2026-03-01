@@ -243,5 +243,12 @@ nav {
     width: auto;
 }
 
+@media (max-width: 768px) {
+    header {
+        background-position: top center;
+    }
+}
+
+
 
 
