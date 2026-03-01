@@ -89,6 +89,9 @@ nav {
    height: 70vh;
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
                 url("maxresdefault.jpg");
+
+  
+    background-size: contain;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -239,4 +242,5 @@ nav {
     height: 32px;   /* adjust size here */
     width: auto;
 }
+
 
