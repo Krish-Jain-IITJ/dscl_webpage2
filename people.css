@@ -112,54 +112,57 @@ nav {
 
 /* PROFESSOR */
 .professor-section {
-    padding: 60px 10%;
-    background-color: #f9f9f9;
-}
-
-.professor-container {
+    background-color: #f4f6f8;
+    padding: 60px 20px;
     display: flex;
-    gap: 50px;
-    align-items: flex-start;
+    justify-content: center;
 }
 
-.professor-image img {
-    width: 280px;
+.professor-box {
+    background: white;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    text-align: center;
+}
+
+.professor-img {
+    width: 200px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
 }
 
-.professor-content {
-    flex: 1;
-}
-
-.professor-content h1 {
-    font-size: 32px;
+h1 {
     margin-bottom: 5px;
+    font-size: 28px;
 }
 
 .designation {
-    font-size: 18px;
     color: #666;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
 .bio {
-    font-size: 16px;
     line-height: 1.7;
     margin-bottom: 30px;
+    font-size: 15px;
 }
 
-.professor-content h2 {
+h2 {
     margin-top: 30px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #ddd;
+    border-bottom: 2px solid #eee;
     padding-bottom: 5px;
 }
 
-.professor-content ul {
-    padding-left: 20px;
+ul {
+    list-style-position: inside;
     line-height: 1.8;
+    padding: 0;
 }
 /* STUDENTS */
 .students-section {
@@ -270,6 +273,7 @@ nav {
         background-position: top center;
     }
 }
+
 
 
 
