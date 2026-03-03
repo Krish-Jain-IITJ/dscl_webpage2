@@ -111,58 +111,85 @@ nav {
 }
 
 /* PROFESSOR */
-.professor-section {
+/* Outer background */
+.profile-wrapper {
     background-color: #f4f6f8;
-    padding: 60px 20px;
-    display: flex;
-    justify-content: center;
+    padding: 60px 0;
 }
 
-.professor-box {
-    background: white;
-    max-width: 800px;
+/* Centered container */
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Card */
+.profile-card {
+    background: #ffffff;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
-    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
-.professor-img {
-    width: 200px;
+/* Top layout */
+.profile-top {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+/* Image */
+.profile-img {
+    width: 180px;
     height: auto;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border-radius: 6px;
+    border: 1px solid #ccc;
 }
 
-h1 {
-    margin-bottom: 5px;
+/* Text styling */
+.profile-info h1 {
+    margin: 0;
     font-size: 28px;
+    color: #c65d00;
 }
 
 .designation {
-    color: #666;
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 18px;
+    margin: 5px 0 15px;
+    color: #555;
 }
 
-.bio {
+.info-line {
+    margin: 6px 0;
+}
+
+.section-divider {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ddd;
+}
+
+.bio-section {
     line-height: 1.7;
-    margin-bottom: 30px;
-    font-size: 15px;
+    text-align: justify;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    line-height: 1.6;
 }
 
 h2 {
-    margin-top: 30px;
+    margin-top: 25px;
     margin-bottom: 15px;
-    border-bottom: 2px solid #eee;
+    border-bottom: 1px solid #ddd;
     padding-bottom: 5px;
 }
 
-ul {
-    list-style-position: inside;
+.research-list {
+    padding-left: 20px;
     line-height: 1.8;
-    padding: 0;
 }
 /* STUDENTS */
 .students-section {
@@ -273,6 +300,7 @@ ul {
         background-position: top center;
     }
 }
+
 
 
 
